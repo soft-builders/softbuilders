@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftBuilders — Construindo o Futuro em Código</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="SoftBuilders Logo" class="logo">
+                <span class="logo-text">SoftBuilders</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#team" class="nav-link">Equipe</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="SoftBuilders">SoftBuilders</span>
+                </h1>
+                <h2 class="hero-subtitle">Construindo o Futuro em Código</h2>
+                <p class="hero-description">
+                    Uma startup visionária focada no desenvolvimento de softwares inteligentes e escaláveis.
+                    Transformamos ideias em soluções digitais robustas, combinando engenharia de ponta, 
+                    design moderno e tecnologia de alta performance.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <span>Nossos Projetos</span>
+                        <i class="fas fa-rocket"></i>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <span>Conheça a Equipe</span>
+                        <i class="fas fa-users"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hologram-container">
+                    <div class="hologram-ring"></div>
+                    <div class="hologram-ring"></div>
+                    <div class="hologram-ring"></div>
+                    <div class="hologram-core"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Missão</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Inteligência Artificial</h3>
+                    <p>Desenvolvemos soluções inteligentes que aprendem e evoluem, proporcionando experiências únicas e personalizadas.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </div>
+                    <h3>Escalabilidade</h3>
+                    <p>Arquiteturas robustas e escaláveis que crescem junto com seu negócio, suportando milhões de usuários simultaneamente.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Alta Performance</h3>
+                    <p>Tecnologia de ponta e otimizações avançadas garantem velocidade excepcional em todas as nossas soluções.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Serviços</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Soluções tecnológicas completas para seu negócio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites e aplicações web modernas, responsivas e de alta performance com as mais recentes tecnologias.</p>
+                
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicativos Mobile</h3>
+                    <p>Apps nativos e híbridos para iOS e Android com experiência de usuário excepcional.</p>
+
+                </div>
+
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-badge">Mais Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Soluções com IA</h3>
+                    <p>Integração de Inteligência Artificial e Machine Learning para automatizar processos e gerar insights.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Equipe</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Mentes brilhantes construindo o futuro</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="team-avatar">
+                        <img src="images/thiago.png" alt="Thiago Rezende" class="avatar-image">
+                        
+                    </div>
+                    <div class="team-info">
+                        <h3>Thiago Rezende</h3>
+                        <p class="team-role">Co-Founder & CEO</p>
+                        <div class="team-education">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Instituto Tecnológico de Aeronáutica (ITA)</span>
+                        </div>
+                        <p class="team-degree">Engenharia Mecânica-Aeronáutica</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/thiago-rezende-734452100/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/soft-builders"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="team-avatar">
+                        <img src="images/eduardo.png" alt="Eduardo Rodrigues" class="avatar-image">
+                        
+                    </div>
+                    <div class="team-info">
+                        <h3>Eduardo Rodrigues</h3>
+                        <p class="team-role">Co-Founder & CEO</p>
+                        <div class="team-education">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Instituto Tecnológico de Aeronáutica (ITA)</span>
+                        </div>
+                        <p class="team-degree">Engenharia Mecânica</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/eduardo-rodrigues-3246512a8/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/soft-builders"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="team-avatar">
+                        <img src="images/victor.jpeg" alt="Victor Adler" class="avatar-image">
+                        
+                    </div>
+                    <div class="team-info">
+                        <h3>Victor Adler</h3>
+                        <p class="team-role">Co-Founder Partner & Developer</p>
+                        <div class="team-education">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Faculdade de Tecnologia do Nordeste</span>
+                        </div>
+                        <p class="team-degree">Análise e Desenvolvimento de Sistemas</p>
+                        <p class="team-specialization">Pós-Graduação em Full Stack e DevOps</p>
+                        <div class="team-social">
+                            <a href="https://www.linkedin.com/in/victoradlercavalcante/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/soft-builders"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="team-avatar">
+                        <img src="images/pedro.png" alt="Pedro Cruz" class="avatar-image">
+                        
+                    </div>
+                    <div class="team-info">
+                        <h3> Pedro Cruz </h3>
+                        <p class="team-role">Commercial Partner</p>
+                        <div class="team-education">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Universidade Federal do Ceará (UFC)</span>
+                        </div>
+                        <p class="team-degree">Administração de Empresas</p>
+                        <p class="team-specialization">Especialista em Gestão e Finanças</p>
+                        <div class="team-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Construir Juntos</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Pronto para transformar sua ideia em realidade?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@softbuilders.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>+55 12 98163-8494</p>
+                        </div>
+                    </div>
+                    <!-- <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>São Paulo, Brasil</p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="contact-form">
+                    <!-- Para FormSpree: Substitua SEU_FORM_ID_AQUI pelo ID do seu form -->
+                    <!-- Para Netlify: Descomente a linha abaixo e comente a action do FormSpree -->
+                    <form action="https://formspree.io/f/SEU_FORM_ID_AQUI" method="POST" id="contact-form" data-netlify="true" name="contact">
+                        <div class="form-group">
+                            <input type="text" name="nome" placeholder="Seu Nome" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Seu Email" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="assunto" placeholder="Assunto" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit-btn">
+                            <span class="btn-text">Enviar Mensagem</span>
+                            <i class="fas fa-paper-plane btn-icon"></i>
+                            <div class="loading-spinner" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i>
+                            </div>
+                        </button>
+                        <div class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="SoftBuilders Logo" class="logo">
+                    <span class="logo-text">SoftBuilders</span>
+                </div>
+                <p>&copy; 2025 SoftBuilders. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5512981638494?text=Olá! Gostaria de saber mais sobre os serviços da SoftBuilders." target="_blank" class="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+            <span class="whatsapp-text">Fale Conosco</span>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="index.js"></script>
+</body>
+</html>
